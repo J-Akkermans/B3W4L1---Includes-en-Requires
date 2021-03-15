@@ -9,7 +9,12 @@
 </head>
 <body>
     <?php 
-    echo $name;
+    echo $name; ?>
+    <br>
+    <?php
+    foreach($list as $value){
+        echo $value;
+    }
     ?>
     
 </body>
